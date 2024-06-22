@@ -1,3 +1,11 @@
+
+.shop-btn {
+  background-color: #ec1c24;
+}
+.shop-btn:hover {
+  background-color: #ec1c24;
+}
+/* start main section */
 .main-sec {
   background-color: #74d2e7;
 }
@@ -76,13 +84,11 @@
   box-shadow: none;
 }
 
+
+/* start landing */
 .landing h2:first-of-type {
   color: #333;
   margin-top: 200px;
-}
-
-.shop-btn {
-  background-color: #ec1c24;
 }
 
 @media (max-width: 992px) {
@@ -108,7 +114,9 @@
     margin-top: 48px;
   }
 }
+/* end main section */
 
+/* start feature section*/
 .features h5 {
   color: #4c4d4e;
 }
@@ -125,7 +133,9 @@
     font-size: 15px;
   }
 }
+/* end feature section */
 
+/* start must have section */
 .must-have {
   background-color: #f7f7f7;
 }
@@ -157,7 +167,9 @@
     min-height: 300px;
   }
 }
+/* end must have section */
 
+/* start safety section */
 .safety h1{
   color: #333;
 }
@@ -178,3 +190,4 @@
     font-size: 15px;
   }
 }
+/* end safety section */
