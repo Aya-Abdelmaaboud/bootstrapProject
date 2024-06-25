@@ -1,4 +1,12 @@
 
+body a {
+  text-decoration: none;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
 .shop-btn {
   background-color: #ec1c24;
 }
@@ -192,15 +200,6 @@
 }
 /* end safety section */
 
-
-body a {
-  text-decoration: none;
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-  -ms-transition: 0.5s all;
-}
 /*--/newsletter--*/
  .newsletter-w3pvt form {
   margin: 0 auto;
@@ -227,6 +226,11 @@ body a {
   -moz-box-shadow: 1px 3px 8px 0 rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 1px 3px 8px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 1px 3px 8px 0 rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 767px) {
+  .subscribe-sec input {
+    margin-bottom: 1em;
+  }
 }
 .btn.submit {
   background: #74d2e7;

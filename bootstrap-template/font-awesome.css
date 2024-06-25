@@ -26,6 +26,19 @@
 }
 
 /* using */
+.fa-user-circle-o:before {
+  content: "\f2be";
+}
+.fa-edit:before,
+.fa-pencil-square-o:before {
+  content: "\f044";
+}
+.fa-bars:before {
+  content: "\f0c9";
+}
+.fa-search:before {
+  content: "\f002";
+}
 .fa-truck:before {
   content: "\f0d1";
 }
